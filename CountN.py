@@ -22,9 +22,8 @@ def CountN(file):
             dic[num]=1
     fh.close()
     for i in dic:
-        
         print("There are %s  reads with %s N" % (dic[i], i) )
-    
+#este codigo
 
 parse = argparse.ArgumentParser(prog="CountN")
 parse.add_argument('-f', '--CountN')
